@@ -1,0 +1,2 @@
+include: "https://raw.githubusercontent.com/tomfordweb/gitlab-ci-templates/main/docker-registry/push-to-dockerhub.yml"
+
