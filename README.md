@@ -1,13 +1,7 @@
-This is an ansible machine based on an ubuntu image that contains the dependancies needed for the following modules:
-
-* [community.general.proxmox](https://docs.ansible.com/ansible/latest/collections/community/general/proxmox_module.html) 
-
-The image also includes `vim` for the "hit it with a hammer" approach when things aren't working right.
+This is an ansible control machine based on an ubuntu image that also contains the `community.general` module.
 
 # Use it
-You can use this image with either plain-ol `docker`, or `docker-compose`.
-
-Yo
+You can use this image with either `docker`, or `docker-compose`.
 
 ## docker
 Here is an example passing the local machines `ssh-agent` to the container to use your private key.

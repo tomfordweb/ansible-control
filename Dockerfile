@@ -14,6 +14,8 @@ RUN apt-get install -y curl \
   python3-venv \
   openssh-client
 
-RUN pip3 install ansible proxmoxer requests
+RUN pip3 install ansible 
+
+RUN ansible-galaxy collection install community.general
 
 WORKDIR /ansible
