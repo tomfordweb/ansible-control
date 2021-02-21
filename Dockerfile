@@ -2,7 +2,6 @@ FROM ubuntu:20.04
 
 ENV DEBIAN_FRONTEND=noninteractive
 
-
 RUN apt-get update
 
 RUN apt-get install -y curl \
@@ -17,5 +16,6 @@ RUN apt-get install -y curl \
 RUN pip3 install ansible 
 
 RUN ansible-galaxy collection install community.general
+RUN ansible-galaxy collection install community.docker
 
 WORKDIR /ansible

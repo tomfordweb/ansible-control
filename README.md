@@ -1,4 +1,8 @@
-This is an ansible control machine based on an ubuntu image that also contains the `community.general` module.
+This is an ansible control machine based on an Ubuntu 20 image.
+
+It contains a few extra ansible galaxy modules:
+* community.general
+* community.docker
 
 # Use it
 You can use this image with either `docker`, or `docker-compose`.
